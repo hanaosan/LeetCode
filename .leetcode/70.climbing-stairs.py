@@ -6,7 +6,7 @@
 
 # @lc code=start
 # Space Optimization
-# O(n) spaces
+# O(1) spaces
 # O(n) times 
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -24,7 +24,7 @@ class Solution:
         return current
 
 # Tabulation method(表計算)
-# O(1) spaces
+# O(n) spaces
 # O(n) times 
 # class Solution:
 #     def climbStairs(self, n: int) -> int:
